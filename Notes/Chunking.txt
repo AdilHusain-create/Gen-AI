@@ -1,0 +1,27 @@
+What is Chunking
+
+
+Types of Chunking
+
+	I). Fixed Size Chunking (Length-Based)
+		1. Normal Python Code with for loop slitting.
+		2. Using Langchain
+			Langchain.text_splitter import "Character
+		3.Using llama Index
+			To extract Raw text from file --> llama_index.readers.file import FlatReader
+			For Chunk Splitting --> llama_index.core.node_parser import SentenceSplitter
+	
+	II). Recursive Chunking (Text-Structure Based)
+		Text is structured in hierarchical way like paragraphs → sentences → words.
+		We can use this structure to split text intelligently.
+		Goal:
+			→ Keep natural flow of language
+			→ Ensure each chunk is semantically meaningful
+			→ Support different levels of granularity (fine-grained vs. coarse-grained chunks)
+		
+		→ from langchain_text_splitters import RecursiveCharacterTextSplitter
+		→ from llama_index.node_parser import LangchainNodeParser
+		
+	III). Document Chunking (Document-Based)
+	
+	IV). Semantic Chunking

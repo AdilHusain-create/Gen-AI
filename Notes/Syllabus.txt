@@ -1,0 +1,44 @@
+Tech Stack to Learn
+-------------------
+
+Prompt Engineering 
+	
+	→ Foundation 
+		Prompt
+		Prompt Format
+		Types of Prompt
+		Prompt Tokens & Budget
+		Temperature, Top-k & Top-p
+	
+	→ Patterns & Technique
+		Chain-of-Thoughts (CoT)
+		ReAct (Reason + Action)
+		Tree-of-Thoughts (ToT)
+		Self-Consistency
+		Self-Refinement
+		Few-Shot Examples
+		Role Prompting
+		
+	→ Prompting in RAG
+		Context-Aware
+		Prompt Template
+		Compression Prompts
+		Prompt Chunking
+		Follow-up Question Prompting
+		Guadrails in Prompts
+		
+	→ Prompting in Agentic AI
+		ReAct Prompting
+		Action-Observation Pattern
+		Planning Prompts
+		Delegation Prompts
+		Tool Invocation Prompts
+		Guardrails & Fail-Safes
+		
+	→ Advance Prompts Engineering
+		Prompt Optimization
+		Prompt Injection Prevention
+		Multi-turn Memory Prompting
+		Modular Prompt Design
+		Prompt Evaluation Metrics
+		Prompt Tuning / Soft Prompts
